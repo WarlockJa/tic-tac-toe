@@ -59,7 +59,5 @@ export default function isTicTacBoardWon(
     dp[i] = value;
   }
 
-  console.log(dp);
-
   return false;
 }
